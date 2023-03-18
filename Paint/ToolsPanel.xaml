@@ -1,0 +1,135 @@
+﻿<Canvas x:Class="Paint.ToolsPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Paint"
+        mc:Ignorable="d"
+        Height="100" Width="700">
+    <Grid
+        Width="700"
+        Height="100">
+        <Slider
+            Name="sliderWidth"
+            Height="20"
+            Margin="15"
+            ValueChanged="sliderWidth_ValueChanged"
+            VerticalAlignment="Top"
+            Cursor="Hand"/>
+
+        <StackPanel
+            VerticalAlignment="Bottom"
+            Orientation="Horizontal">
+            
+            <Button
+                Width="20"
+                Height="20"
+                Background="Red"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="15"
+                Click="Button_Click"
+                Cursor="Hand"/>
+
+            <Button
+                Width="20"
+                Height="20"
+                Background="Green"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="15"
+                Click="Button_Click_1"
+                Cursor="Hand"/>
+
+            <Button
+                Width="20"
+                Height="20"
+                Background="Blue"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="15"
+                Click="Button_Click_2"
+                Cursor="Hand"/>
+
+            <Button
+                Width="20"
+                Height="20"
+                Background="Brown"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="15"
+                Click="Button_Click_3"
+                Cursor="Hand"/>
+
+            <Button
+                Width="20"
+                Height="20"
+                Background="White"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="15"
+                Click="Button_Click_4"
+                Cursor="Hand"/>
+
+            <Button
+                Width="20"
+                Height="20"
+                Background="Black"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="15"
+                Click="Button_Click_5"
+                Cursor="Hand"/>
+
+            <Button
+                Width="20"
+                Height="20"
+                Background="Gray"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="15"
+                Click="Button_Click_6"
+                Cursor="Hand"/>
+
+            <Button
+                Width="20"
+                Height="20"
+                Background="LightBlue"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="15"
+                Click="Button_Click_7"
+                Cursor="Hand"/>
+
+            <Button
+                Width="20"
+                Height="20"
+                Background="LightGreen"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="15"
+                Click="Button_Click_8"
+                Cursor="Hand"/>
+
+            <Button
+                Width="20"
+                Height="20"
+                Background="Yellow"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="15"
+                Click="Button_Click_9"
+                Cursor="Hand"/>
+
+            <Button
+                Width="20"
+                Height="20"
+                Background="Cyan"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Left"
+                Margin="15"
+                Click="Button_Click_10"
+                Cursor="Hand"/>
+        </StackPanel>
+    </Grid>
+</Canvas>
